@@ -1,0 +1,167 @@
+[URI of the OWL(RDF/XML) output file]
+http://purl.obolibrary.org/obo/ro_example/imports/general_import.owl
+
+[Source ontology]
+BFO
+
+[Low level source term URIs] 
+http://purl.obolibrary.org/obo/BFO_0000001
+includeAllChildren
+
+
+[Top level source term URIs and target direct superclass URIs]
+http://purl.obolibrary.org/obo/BFO_0000001
+
+[Source term retrieval setting]
+includeAllIntermediates
+
+[Source annotation URIs]
+includeAllAxiomsRecursively
+
+###########################################
+
+
+[Source ontology]
+OBI
+
+[Low level source term URIs] 
+http://purl.obolibrary.org/obo/OBI_0000070 # Assay
+# insulin concentration measurement assay
+# insulin concentration measurement data item
+
+[Top level source term URIs and target direct superclass URIs]
+http://purl.obolibrary.org/obo/BFO_0000001
+
+[Source term retrieval setting]
+includeAllIntermediates
+
+[Source annotation URIs]
+includeAllAxiomsRecursively
+
+
+###########################################
+
+[Source ontology]
+PATO
+
+[Low level source term URIs]
+http://purl.obolibrary.org/obo/PATO_0001334 # diameter
+
+[Top level source term URIs and target direct superclass URIs]
+http://purl.obolibrary.org/obo/PATO_0000001
+
+[Source term retrieval setting]
+includeAllIntermediates
+
+[Source annotation URIs]
+includeAllAxiomsRecursively
+
+
+###########################################
+
+[Source ontology]
+CHEBI
+
+[Low level source term URIs]
+http://purl.obolibrary.org/obo/CHEBI_145810 #insulin
+
+[Top level source term URIs and target direct superclass URIs]
+http://purl.obolibrary.org/obo/CHEBI_24431
+
+[Source term retrieval setting]
+includeAllIntermediates
+
+[Source annotation URIs]
+includeAllAxiomsRecursively
+
+
+###########################################
+
+[Source ontology]
+UBERON
+
+[Low level source term URIs]
+http://purl.obolibrary.org/obo/UBERON_0001981 # blood vessel
+http://purl.obolibrary.org/obo/UBERON_0000178 # blood
+
+[Top level source term URIs and target direct superclass URIs]
+http://purl.obolibrary.org/obo/UBERON_0001062 # anatomical entity
+
+[Source term retrieval setting]
+includeAllIntermediates
+
+[Source annotation URIs]
+includeAllAxiomsRecursively
+
+###########################################
+
+[Source ontology]
+OBA
+
+[Low level source term URIs]
+http://purl.obolibrary.org/obo/OBA_0000183 # blood vessel diameter
+
+[Top level source term URIs and target direct superclass URIs]
+http://purl.obolibrary.org/obo/PATO_0000001 # Quality
+
+[Source term retrieval setting]
+includeAllIntermediates
+
+[Source annotation URIs]
+includeAllAxiomsRecursively
+
+###########################################
+
+[Source ontology]
+GO
+
+[Low level source term URIs]
+http://purl.obolibrary.org/obo/GO_0038023 # signaling receptor activity
+#http://purl.obolibrary.org/obo/GO_0004872 # Receptor activity
+http://purl.obolibrary.org/obo/GO_0016301 # Kinase activity
+http://purl.obolibrary.org/obo/GO_0042310 # Vasoconstriction
+
+[Top level source term URIs and target direct superclass URIs]
+http://purl.obolibrary.org/obo/GO_0003674 # molecular function
+http://purl.obolibrary.org/obo/GO_0008150 # biological process
+
+[Source term retrieval setting]
+includeAllIntermediates
+
+[Source annotation URIs]
+includeAllAxiomsRecursively
+
+###########################################
+
+[Source ontology]
+MONDO
+
+[Low level source term URIs]
+http://purl.obolibrary.org/obo/MONDO_0005266 # diabetic retinopathy
+
+[Top level source term URIs and target direct superclass URIs]
+owl:Thing
+
+[Source term retrieval setting]
+includeAllIntermediates
+
+[Source annotation URIs]
+includeAllAxiomsRecursively
+
+###########################################
+
+[Source ontology]
+HP
+
+[Low level source term URIs]
+http://purl.obolibrary.org/obo/HP_0005308 # Pulmonary artery vasoconstriction
+
+[Top level source term URIs and target direct superclass URIs]
+owl:Thing
+
+[Source term retrieval setting]
+includeAllIntermediates
+
+[Source annotation URIs]
+includeAllAxiomsRecursively
+

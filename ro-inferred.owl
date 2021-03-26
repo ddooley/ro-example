@@ -1795,10 +1795,90 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/IAO_0000002 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IAO_0000002">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/IAO_0000078"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000120 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IAO_0000120">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/IAO_0000078"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000121 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IAO_0000121">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/IAO_0000078"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000122 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IAO_0000122">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/IAO_0000078"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000123 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IAO_0000123">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/IAO_0000078"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000124 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IAO_0000124">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/IAO_0000078"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000125 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IAO_0000125">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/IAO_0000078"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000423 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IAO_0000423">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/IAO_0000078"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000428 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IAO_0000428">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/IAO_0000078"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RO_0001901 -->
+
+    <owl:Thing rdf:about="http://purl.obolibrary.org/obo/RO_0001901"/>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/RO_EXAMPLE_00000001 -->
 
     <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/RO_EXAMPLE_00000001">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000004"/>
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001981"/>
+        <obo:RO_0000053 rdf:resource="http://purl.obolibrary.org/obo/RO_EXAMPLE_00000002"/>
         <obo:IAO_0000117 rdf:resource="http://orcid.org/0000-0002-8844-9165"/>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-03-26T01:24:19Z</dc:date>
         <rdfs:label xml:lang="en">blood_vessel_1</rdfs:label>
@@ -1809,6 +1889,7 @@
     <!-- http://purl.obolibrary.org/obo/RO_EXAMPLE_00000002 -->
 
     <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/RO_EXAMPLE_00000002">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBA_0000183"/>
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PATO_0001334"/>
         <obo:RO_0000052 rdf:resource="http://purl.obolibrary.org/obo/RO_EXAMPLE_00000001"/>
         <obo:IAO_0000117 rdf:resource="http://orcid.org/0000-0002-8844-9165"/>
@@ -1833,10 +1914,88 @@
     <!-- http://purl.obolibrary.org/obo/RO_EXAMPLE_00000004 -->
 
     <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/RO_EXAMPLE_00000004">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000178"/>
+        <obo:BFO_0000051 rdf:resource="http://purl.obolibrary.org/obo/RO_EXAMPLE_00000003"/>
+        <obo:RO_0001025 rdf:resource="http://purl.obolibrary.org/obo/RO_EXAMPLE_00000001"/>
         <obo:IAO_0000117 rdf:resource="http://orcid.org/0000-0002-8844-9165"/>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-03-26T01:26:04Z</dc:date>
         <rdfs:label xml:lang="en">blood_1</rdfs:label>
     </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RO_EXAMPLE_00000005 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/RO_EXAMPLE_00000005">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/GO_0038023"/>
+        <obo:RO_0002411 rdf:resource="http://purl.obolibrary.org/obo/RO_EXAMPLE_00000006"/>
+        <obo:RO_0002411 rdf:resource="http://purl.obolibrary.org/obo/RO_EXAMPLE_00000007"/>
+        <obo:IAO_0000117 rdf:resource="http://orcid.org/0000-0002-8844-9165"/>
+        <obo:RO_0002233 rdf:resource="http://purl.obolibrary.org/obo/RO_EXAMPLE_00000003"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-03-26T01:37:29Z</dc:date>
+        <rdfs:label xml:lang="en">signalling_receptor_activity_1</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RO_EXAMPLE_00000006 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/RO_EXAMPLE_00000006">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/GO_0016301"/>
+        <obo:RO_0002411 rdf:resource="http://purl.obolibrary.org/obo/RO_EXAMPLE_00000007"/>
+        <obo:IAO_0000117 rdf:resource="http://orcid.org/0000-0002-8844-9165"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-03-26T01:38:15Z</dc:date>
+        <rdfs:label xml:lang="en">kinase_activity_1</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RO_EXAMPLE_00000007 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/RO_EXAMPLE_00000007">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/GO_0042310"/>
+        <obo:RO_0000086 rdf:resource="http://purl.obolibrary.org/obo/RO_EXAMPLE_00000008"/>
+        <obo:IAO_0000117 rdf:resource="http://orcid.org/0000-0002-8844-9165"/>
+        <obo:RO_0002211 rdf:resource="http://purl.obolibrary.org/obo/RO_EXAMPLE_00000002"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-03-26T01:39:05Z</dc:date>
+        <rdfs:label xml:lang="en">vasoconstriction_1</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RO_EXAMPLE_00000008 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/RO_EXAMPLE_00000008">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/HP_0005308"/>
+        <obo:RO_0000080 rdf:resource="http://purl.obolibrary.org/obo/RO_EXAMPLE_00000007"/>
+        <obo:IAO_0000117 rdf:resource="http://orcid.org/0000-0002-8844-9165"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-03-26T01:39:56Z</dc:date>
+        <rdfs:label xml:lang="en">pulmonary_artery_vasoconstriction_1</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RO_EXAMPLE_00000009 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/RO_EXAMPLE_00000009">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/MONDO_0005266"/>
+        <obo:IAO_0000117 rdf:resource="http://orcid.org/0000-0002-8844-9165"/>
+        <obo:RO_0002200 rdf:resource="http://purl.obolibrary.org/obo/RO_EXAMPLE_00000008"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-03-26T01:40:57Z</dc:date>
+        <rdfs:label xml:lang="en">diabetic_retinopathy_1</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/iao.owl -->
+
+    <owl:Thing rdf:about="http://purl.obolibrary.org/obo/iao.owl"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/obi.owl -->
+
+    <owl:Thing rdf:about="http://purl.obolibrary.org/obo/obi.owl"/>
 </rdf:RDF>
 
 

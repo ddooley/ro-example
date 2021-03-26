@@ -76,9 +76,72 @@
     <!-- http://purl.obolibrary.org/obo/RO_EXAMPLE_00000004 -->
 
     <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/RO_EXAMPLE_00000004">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000178"/>
+        <obo:RO_0001025 rdf:resource="http://purl.obolibrary.org/obo/RO_EXAMPLE_00000001"/>
         <obo:IAO_0000117 rdf:resource="http://orcid.org/0000-0002-8844-9165"/>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-03-26T01:26:04Z</dc:date>
         <rdfs:label xml:lang="en">blood_1</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RO_EXAMPLE_00000005 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/RO_EXAMPLE_00000005">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/GO_0038023"/>
+        <obo:RO_0002233 rdf:resource="http://purl.obolibrary.org/obo/RO_EXAMPLE_00000003"/>
+        <obo:RO_0002411 rdf:resource="http://purl.obolibrary.org/obo/RO_EXAMPLE_00000006"/>
+        <obo:IAO_0000117 rdf:resource="http://orcid.org/0000-0002-8844-9165"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-03-26T01:37:29Z</dc:date>
+        <rdfs:label xml:lang="en">signalling_receptor_activity_1</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RO_EXAMPLE_00000006 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/RO_EXAMPLE_00000006">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/GO_0016301"/>
+        <obo:RO_0002411 rdf:resource="http://purl.obolibrary.org/obo/RO_EXAMPLE_00000007"/>
+        <obo:IAO_0000117 rdf:resource="http://orcid.org/0000-0002-8844-9165"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-03-26T01:38:15Z</dc:date>
+        <rdfs:label xml:lang="en">kinase_activity_1</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RO_EXAMPLE_00000007 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/RO_EXAMPLE_00000007">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/GO_0042310"/>
+        <obo:RO_0002211 rdf:resource="http://purl.obolibrary.org/obo/RO_EXAMPLE_00000002"/>
+        <obo:IAO_0000117 rdf:resource="http://orcid.org/0000-0002-8844-9165"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-03-26T01:39:05Z</dc:date>
+        <rdfs:label xml:lang="en">vasoconstriction_1</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RO_EXAMPLE_00000008 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/RO_EXAMPLE_00000008">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/HP_0005308"/>
+        <obo:RO_0000080 rdf:resource="http://purl.obolibrary.org/obo/RO_EXAMPLE_00000007"/>
+        <obo:IAO_0000117 rdf:resource="http://orcid.org/0000-0002-8844-9165"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-03-26T01:39:56Z</dc:date>
+        <rdfs:label xml:lang="en">pulmonary_artery_vasoconstriction_1</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RO_EXAMPLE_00000009 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/RO_EXAMPLE_00000009">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/MONDO_0005266"/>
+        <obo:RO_0002200 rdf:resource="http://purl.obolibrary.org/obo/RO_EXAMPLE_00000008"/>
+        <obo:IAO_0000117 rdf:resource="http://orcid.org/0000-0002-8844-9165"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-03-26T01:40:57Z</dc:date>
+        <rdfs:label xml:lang="en">diabetic_retinopathy_1</rdfs:label>
     </owl:NamedIndividual>
 </rdf:RDF>
 

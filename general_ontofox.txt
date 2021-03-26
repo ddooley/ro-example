@@ -58,7 +58,7 @@ http://purl.obolibrary.org/obo/PATO_0000001
 includeAllIntermediates
 
 [Source annotation URIs]
-includeAllAxiomsRecursively
+includeAllAxioms
 
 
 ###########################################
@@ -76,8 +76,8 @@ http://purl.obolibrary.org/obo/CHEBI_24431
 includeAllIntermediates
 
 [Source annotation URIs]
-includeAllAxiomsRecursively
-
+includeAllAxioms
+#includeAllAxiomsRecursively #### SUPER SLOW WITH THIS IN PROTEGE?
 
 ###########################################
 
@@ -95,7 +95,7 @@ http://purl.obolibrary.org/obo/UBERON_0001062 # anatomical entity
 includeAllIntermediates
 
 [Source annotation URIs]
-includeAllAxiomsRecursively
+includeAllAxioms
 
 ###########################################
 
@@ -112,7 +112,7 @@ http://purl.obolibrary.org/obo/PATO_0000001 # Quality
 includeAllIntermediates
 
 [Source annotation URIs]
-includeAllAxiomsRecursively
+includeAllAxioms
 
 ###########################################
 
@@ -133,7 +133,7 @@ http://purl.obolibrary.org/obo/GO_0008150 # biological process
 includeAllIntermediates
 
 [Source annotation URIs]
-includeAllAxiomsRecursively
+includeAllAxioms
 
 ###########################################
 
@@ -150,7 +150,7 @@ owl:Thing
 includeAllIntermediates
 
 [Source annotation URIs]
-includeAllAxiomsRecursively
+includeAllAxioms
 
 ###########################################
 
@@ -167,8 +167,10 @@ owl:Thing
 includeAllIntermediates
 
 [Source annotation URIs]
-includeAllAxiomsRecursively
+#includeAllAxiomsRecursively ###### THIS CREATES A PROBLEM - JAVA STACK ERROR
+includeAllAxioms
 
+###########################################
 
 [Source ontology]
 RO
@@ -190,21 +192,4 @@ http://purl.obolibrary.org/obo/RO_0000080 #quality of
 includeAllIntermediates
 
 [Source annotation URIs]
-includeAllAxiomsRecursively
-
-
-
-[Source ontology]
-COB
-
-[Low level source term URIs]
-http://purl.obolibrary.org/obo/COB_0000023 #characteristic of
-
-[Top level source term URIs and target direct superclass URIs]
-
-
-[Source term retrieval setting]
-includeAllIntermediates
-
-[Source annotation URIs]
-includeAllAxiomsRecursively
+includeAllAxioms

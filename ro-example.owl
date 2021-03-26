@@ -24,6 +24,62 @@
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/ro-example.owl">
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/ro_example/imports/general_import.owl"/>
     </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RO_EXAMPLE_00000001 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/RO_EXAMPLE_00000001">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001981"/>
+        <obo:IAO_0000117 rdf:resource="http://orcid.org/0000-0002-8844-9165"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-03-26T01:24:19Z</dc:date>
+        <rdfs:label xml:lang="en">blood_vessel_1</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RO_EXAMPLE_00000002 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/RO_EXAMPLE_00000002">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PATO_0001334"/>
+        <obo:RO_0000052 rdf:resource="http://purl.obolibrary.org/obo/RO_EXAMPLE_00000001"/>
+        <obo:IAO_0000117 rdf:resource="http://orcid.org/0000-0002-8844-9165"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-03-26T01:24:53Z</dc:date>
+        <rdfs:label xml:lang="en">diameter_1</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RO_EXAMPLE_00000003 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/RO_EXAMPLE_00000003">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/CHEBI_145810"/>
+        <obo:BFO_0000050 rdf:resource="http://purl.obolibrary.org/obo/RO_EXAMPLE_00000004"/>
+        <obo:IAO_0000117 rdf:resource="http://orcid.org/0000-0002-8844-9165"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-03-26T01:25:39Z</dc:date>
+        <rdfs:label xml:lang="en">insulin_1</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RO_EXAMPLE_00000004 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/RO_EXAMPLE_00000004">
+        <obo:IAO_0000117 rdf:resource="http://orcid.org/0000-0002-8844-9165"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-03-26T01:26:04Z</dc:date>
+        <rdfs:label xml:lang="en">blood_1</rdfs:label>
+    </owl:NamedIndividual>
 </rdf:RDF>
 
 
